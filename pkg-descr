@@ -1,0 +1,6 @@
+kalendas is a Perl Script to make calendar calculations. The
+computations are developed on three systems of dating: the Julian
+calendar, the Gregorian calendar and the system of numbering of
+Julian day/date.
+
+WWW: https://github.com/mikemolina/kalendas/

@@ -1,0 +1,6 @@
+bin/kalendas
+man/es/man1/kalendas.1.gz
+man/man1/kalendas.1.gz
+man/pt_BR/man1/kalendas.1.gz
+share/locale/es/LC_MESSAGES/kalendas.mo
+share/locale/pt_BR/LC_MESSAGES/kalendas.mo
