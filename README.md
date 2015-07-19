@@ -17,6 +17,13 @@ Clone the repository to your ports collection
     # git clone https://github.com/mikemolina/kalendas-port.git kalendas
     # cd kalendas
     # make install clean
+For update run simply
+
+    $ su
+    # cd /usr/ports/astro/kalendas
+    # git pull
+    # make deinstall
+    # make install clean
 
 Uninstall
 ---------
