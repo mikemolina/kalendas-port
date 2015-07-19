@@ -21,8 +21,8 @@ For update run simply
 
     $ su
     # cd /usr/ports/astro/kalendas
-    # git pull
     # make deinstall
+    # git pull
     # make install clean
 
 Uninstall
