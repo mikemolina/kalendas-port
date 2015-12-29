@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	kalendas
-PORTVERSION=	1.2.0
+PORTVERSION=	1.3.0
 CATEGORIES=	astro
 MASTER_SITES=	https://launchpad.net/${PORTNAME}/trunk/${PORTVERSION}/+download/
 
@@ -23,6 +23,9 @@ GNU_CONFIGURE=	yes
 INFO=		${PORTNAME}
 
 PORTDOCS=	AUTHORS ChangeLog README.md
+
+check test: build
+	${MAKE_CMD} -C ${WRKSRC} check
 
 post-install:
 	${MKDIR} ${STAGEDIR}${DOCSDIR}
