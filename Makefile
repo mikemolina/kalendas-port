@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	kalendas
-PORTVERSION=	1.3.0
+PORTVERSION=	1.3.1
 CATEGORIES=	astro
 MASTER_SITES=	https://launchpad.net/${PORTNAME}/trunk/${PORTVERSION}/+download/
 
